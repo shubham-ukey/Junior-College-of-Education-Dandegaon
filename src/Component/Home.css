@@ -1,0 +1,65 @@
+.home {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Slider */
+.slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+/* Welcome Section */
+.welcome {
+  padding: 40px 20px;
+  background-color: #f8fafc;
+}
+
+.welcome h1 {
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.welcome p {
+  margin-bottom: 20px;
+  color: #334155;
+}
+
+.welcome button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0ea5e9;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.welcome button:hover {
+  background-color: #0284c7;
+}
+
+/* Notice Section */
+.notice {
+  padding: 30px;
+  background-color: #e2e8f0;
+}
+
+.notice h2 {
+  margin-bottom: 15px;
+}
+
+.notice ul {
+  list-style: none;
+}
+
+.notice li {
+  margin: 8px 0;
+}
